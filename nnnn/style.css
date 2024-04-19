@@ -1,0 +1,81 @@
+/* styles.css */
+
+#map { 
+  height: 720px;
+  width: 100%;
+}
+
+.title {
+  margin-top: 1px;
+}
+
+.title h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 0;
+  color: #333333;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.btn {
+  background-color: #3a4eff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff3d3d;
+}
+
+.btnstart {
+  font-weight: bold;
+}
+
+.btnstart:hover {
+  background-color: #ff3d3d;
+}
+
+h1 {
+  color: #0000ff;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  background-color: #e4e1fd;
+}
+
+.list-item {
+  width: 80%;
+  font-size: 24px;
+  background: linear-gradient(120deg, #4e8cff, #4ec2ff);
+  color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-item strong {
+  font-weight: bold;
+}
+
+.common-width {
+  width: 170px;
+}
+.button-container {
+  display: flex; /* Arrange elements horizontally */
+  align-items: center; /* Align vertically */
+  margin-bottom: 10px; /* Add some space below the buttons */
+}
+
+.btn { /* Adjust button styles if needed */
+  margin-right: 10px; /* Add space between buttons */
+}
